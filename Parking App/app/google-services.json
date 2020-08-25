@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "870972091146",
+    "firebase_url": "https://smart-parking-management-b4bd4.firebaseio.com",
+    "project_id": "smart-parking-management-b4bd4",
+    "storage_bucket": "smart-parking-management-b4bd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870972091146:android:832e47e59d9e12f81328f3",
+        "android_client_info": {
+          "package_name": "com.example.sherybutt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870972091146-8mu6ik06fau3e3m0a8uodbq9m5eicv2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd3qHC55pfcwGZ0ap3apz0jOw1vjeo3_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870972091146-8mu6ik06fau3e3m0a8uodbq9m5eicv2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

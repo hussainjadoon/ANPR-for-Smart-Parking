@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colors"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Welcome!"
+           android:textColor="@android:color/background_light"
+            android:textSize="40dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/newBooking"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="New Booking"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/Viewbooking"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="View Booking"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/mydetails"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="My Details"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/feedb"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Feedback"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/cancelBooking"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Cancel Booking"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:textSize="20dp">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Logout"
+        android:background="@drawable/style_button"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp">
+
+    </Button>
+
+
+</RelativeLayout>
+
+
